@@ -7,7 +7,7 @@ import GridView from "../src/GridView";
 import Todo from "./Todo";
 import Navbar from "./Navbar";
 import Home from "./Home";
-import ProfileCard from "./ProfileCard";
+import ProfileCard from "./Profilecard";
 import storeredux from "./storeredux";
 import {Provider} from "react-redux";
 const profileLst = {
