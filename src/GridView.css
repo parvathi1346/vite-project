@@ -1,0 +1,26 @@
+.grid-view{
+          display:grid;
+          grid-template-columns: repeat(3,1fr);
+          justify-content: space-between;
+          align-items: center;
+          gap:40px;
+          margin: 30px;
+}
+.student{
+     border: 2px solid black;
+     padding: 5px;
+     margin: 100px;
+     cursor: pointer;
+}
+@media (prefers-color-scheme: light) {
+     .grid-view {
+       color: #000000;
+       background-color: #ffffff;
+     }
+     .student{
+       color: #555252;
+     }};
+     @media (max-width: 600px) {
+          .grid-container {
+            grid-template-columns: 1fr;;
+          }};
